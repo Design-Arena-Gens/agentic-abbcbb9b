@@ -1,0 +1,917 @@
+# Comprehensive .gitignore template for AI-generated projects
+# Covers most common languages, frameworks, and tools
+
+# ===== GENERAL =====
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*~
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ===== NODE.JS / JAVASCRIPT =====
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+pnpm-debug.log*
+
+# Package manager lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+.pnpm-store/
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# Grunt intermediate storage
+.grunt
+
+# Bower dependency directory
+bower_components
+
+# node-waf configuration
+.lock-wscript
+
+# Compiled binary addons
+build/Release
+
+# Dependency directories
+jspm_packages/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env
+.env.test
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# parcel-bundler cache
+.cache
+.parcel-cache
+
+# Next.js build output
+.next/
+.next
+out/
+.vercel/
+
+# Nuxt.js build / generate output
+.nuxt/
+dist/
+.output/
+.nitro/
+
+# Gatsby files
+.cache/
+public/
+.gatsby-cache/
+
+# Storybook build outputs
+.out/
+.storybook-out/
+storybook-static/
+
+# Vite
+dist/
+.vite/
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# Webpack
+.webpack/
+
+# Rollup
+.rollup.cache/
+
+# Parcel
+.parcel-cache/
+dist/
+
+# SvelteKit
+.svelte-kit/
+build/
+
+# Astro
+.astro/
+
+# Remix
+build/
+public/build/
+
+# Angular
+dist/
+tmp/
+out-tsc/
+bazel-out/
+
+# Vue.js
+dist/
+.temp/
+.rn_temp/
+
+# React
+build/
+.docusaurus/
+
+# Ember
+dist/
+tmp/
+.ember-cli/
+
+# Solid.js
+dist/
+.solid/
+
+# Qwik
+dist/
+.qwik/
+
+# Svelte
+/build
+/functions
+
+# 11ty
+_site/
+
+# Jekyll
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Hugo
+/public/
+/resources/_gen/
+/assets/jsconfig.json
+hugo_stats.json
+
+# Hexo
+public/
+.deploy*/
+
+# VuePress
+.vuepress/dist/
+.temp/
+.cache/
+
+# Docusaurus
+.docusaurus/
+build/
+
+# TurboRepo
+.turbo/
+
+# Rush
+common/temp/
+
+# Temporary folders
+tmp/
+temp/
+
+# ===== PYTHON =====
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# PEP 582
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# ===== JAVA =====
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs
+hs_err_pid*
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Gradle
+.gradle
+**/build/
+!src/**/build/
+gradle-app.setting
+!gradle-wrapper.jar
+!gradle-wrapper.properties
+!gradle/wrapper/gradle-wrapper.jar
+
+# ===== C/C++ =====
+# Prerequisites
+*.d
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Linker output
+*.ilk
+*.map
+*.exp
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
+
+# ===== RUST =====
+# Generated by Cargo
+/target/
+Cargo.lock
+
+# ===== GO =====
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool
+*.out
+
+# Dependency directories (remove the comment below to include it)
+vendor/
+
+# Go workspace file
+go.work
+
+# ===== PHP =====
+# Composer
+/vendor/
+composer.phar
+composer.lock
+
+# Laravel
+/bootstrap/compiled.php
+/app/storage/
+/public/storage
+/storage/*.key
+.env
+
+# Symfony
+/app/cache/
+/app/logs/
+/app/config/parameters.yml
+/web/bundles/
+/var/cache/
+/var/logs/
+/var/sessions/
+
+# ===== RUBY =====
+*.gem
+*.rbc
+/.config
+/coverage/
+/InstalledFiles
+/pkg/
+/spec/reports/
+/spec/examples.txt
+/test/tmp/
+/test/version_tmp/
+/tmp/
+
+# Used by dotenv library to load environment variables
+.env
+
+# Ignore Byebug command history file
+.byebug_history
+
+# Ignore bundler config
+/.bundle
+
+# Ignore the default SQLite database
+/db/*.sqlite3
+/db/*.sqlite3-journal
+
+# Ignore all logfiles and tempfiles
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+
+# ===== SWIFT =====
+# Xcode
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+
+# CocoaPods
+Pods/
+
+# Carthage
+Carthage/Build/
+
+# fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# ===== DOCKER =====
+# Docker
+.dockerignore
+Dockerfile*
+docker-compose*.yml
+
+# ===== TERRAFORM =====
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+
+# Exclude all .tfvars files
+*.tfvars
+
+# ===== MISC TOOLS =====
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+# Coverage directory used by tools like istanbul
+coverage
+
+# Grunt intermediate storage
+.grunt
+
+# Compiled binary addons
+build/Release
+
+# Dependency directory
+node_modules
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+# 0x
+profile-*
+
+# mac files
+.DS_Store
+
+# vim swap files
+*.swp
+
+# webstorm
+.idea
+
+# vscode
+.vscode
+*.code-workspace
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# ===== CLOUD & DEPLOYMENT =====
+# Vercel
+.vercel/
+.vercel
+
+# Netlify
+.netlify/
+.netlify
+
+# AWS
+.aws-sam/
+.aws/
+
+# Serverless Framework
+.serverless/
+
+# Firebase
+.firebase/
+.firebaserc
+firebase-debug.log
+firestore-debug.log
+ui-debug.log
+
+# Supabase
+.supabase/
+
+# Railway
+.railway/
+
+# Heroku
+.heroku/
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+
+# Kubernetes
+*.kubeconfig
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+.terraform.lock.hcl
+
+# Pulumi
+.pulumi/
+
+# FuseBox cache
+.fusebox/
+
+# DynamoDB Local files
+.dynamodb/
+
+# TernJS port file
+.tern-port
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
+
+# yarn v2
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# ===== WEB FRAMEWORKS & TOOLS =====
+# Webpack
+webpack-stats.json
+.webpack/
+
+# ESLint
+.eslintcache
+
+# Prettier
+.prettierignore
+
+# TypeScript
+*.tsbuildinfo
+.tscache/
+
+# Babel
+.babelrc.local
+.babelrc.*.local
+
+# PostCSS
+.postcssrc.local
+.postcssrc.*.local
+
+# Tailwind CSS
+.tailwindcss-cache/
+
+# SASS/SCSS
+.sass-cache/
+*.css.map
+*.sass.map
+*.scss.map
+
+# Less
+*.less.map
+
+# Stylus
+*.styl.map
+
+# CSS Modules
+*.module.css.d.ts
+*.module.scss.d.ts
+*.module.sass.d.ts
+
+# Testing
+coverage/
+.nyc_output/
+.coverage/
+*.lcov
+junit.xml
+test-results/
+playwright-report/
+test-results.xml
+
+# Cypress
+cypress/videos/
+cypress/screenshots/
+cypress/downloads/
+
+# Jest
+jest.config.local.js
+jest.config.local.ts
+
+# Vitest
+.vitest/
+
+# Playwright
+/test-results/
+/playwright-report/
+/playwright/.cache/
+
+# ===== MOBILE DEVELOPMENT =====
+# React Native
+.expo/
+.expo-shared/
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+
+# Cordova
+platforms/
+plugins/
+www/
+
+# Ionic
+.ionic/
+
+# Capacitor
+.capacitor/
+ios/
+android/
+
+# Flutter
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+.dart_tool/
+
+# ===== DESKTOP DEVELOPMENT =====
+# Electron
+out/
+dist_electron/
+
+# Tauri
+src-tauri/target/
+
+# ===== MONOREPO TOOLS =====
+# Lerna
+lerna-debug.log*
+
+# Nx
+.nx/cache
+.nx/workspace-data
+
+# Rush
+common/temp/
+common/deploy/
+common/config/rush/pnpm-lock.yaml
+
+# Yarn Workspaces
+.yarn/
+.pnp.*
+
+# ===== BUNDLERS & BUILD TOOLS =====
+# Rollup
+.rollup.cache/
+
+# Snowpack
+.snowpack/
+build/
+web_modules/
+
+# Vite
+.vite/
+dist-ssr/
+*.local
+
+# esbuild
+.esbuild/
+
+# SWC
+.swc/
+
+# Rome
+.rome/
+
+# Biome
+.biome/
+
+# ===== AI/ML =====
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Model files (often large)
+*.h5
+*.pkl
+*.joblib
+*.model
+*.weights
+
+# Data files
+*.csv
+*.json
+*.xml
+*.parquet
+data/
+datasets/
+
+# ===== CUSTOM PROJECT FILES =====
+# Add any project-specific ignores here
+config/secrets.yml
+config/database.yml
+.secrets
+*.key
+*.pem
+*.p12
+*.crt
+*.csr
+*.der
+
+# Backup files
+*.bak
+*.backup
+*.old
+*.orig
+
+# Archive files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# ===== END =====
